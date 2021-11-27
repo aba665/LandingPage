@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   
+    width: 80%;
+    margin: auto;
+   background-image: url(../image/fundo.jpg);
+   font-family: 'Poppins', sans-serif;
+   color: oldlace;
+}
+header{
+    width: 70%;
+    margin: 30px auto;
+    font-size: 15px;
+}
+h2{
+    font-size: 32px;
+}
+h3{
+    margin: 20px 0 20px 0;
+    font-size: 25px;
+}
+#vip{
+    margin: auto;
+    width: 90%;
+    margin-bottom: 20px;
+}
+#vipvalor{
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 20%;
+    font-size: 22px;
+}
+article{
+    width: 70%;
+    margin: 30px auto;
+    
+}
+section{
+    width: 100%;
+    height: 30vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cell{
+    position: relative;
+    bottom: 20%;
+    width: 40%;
+}
+#imagemcentro{
+    width:  70%;
+    height:80%;
+    background: linear-gradient(60deg, #fdf5e6bb, #e9d5b6, #f8e2b9, #fad99b);
+    border-radius: 15px;
+}
+#quadrado{
+    float: right;
+    width: 35%;
+    height: 110%;
+    margin: 2% 8% 0 0;
+    background: linear-gradient(60deg, #33495ebb, #4c6985bb, #698197bb, #88a7c4bb );
+    border-radius: 10px;
+    text-align: center;    
+}
+button{
+    width: 80%;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 17px;
+}
+button:hover{
+    background-color: #a52a2abb;
+}
+footer{
+    margin: 30px auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#logofim{
+    width: 10%;
+    line-height: 70px;
+}
+#direitos{
+    font-size: 17px;
+    width: 40%;
+    padding: 5px;
+    text-shadow: 2px 2px 1px black;
+}
+li{
+    list-style: none;
+}
+#linker{
+    width: 20%;
+    position: relative;
+    padding: 5px;
+
+}
+.fimimage{
+    margin: 10px 5px 0;
+    width: 30px;
+    float: right;
+}
+@media(min-width: 900px) and (max-width: 1500px){
+    section{
+        width: 100%;
+        height: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #cell{
+        position: relative;
+        bottom: 10%;
+        width: 42%;
+    }
+    #imagemcentro{
+        width:  75%;
+        height: 80%;
+        background: #fdf5e6bb;
+        border-radius: 10px;
+    }
+    #quadrado{
+        float: right;
+        width: 50%;
+        height: 110%;
+        margin: 2% 8% 0 0;
+        background: #33495ebb;
+        border-radius: 10px;
+        text-align: center;    
+    }
+    button{
+        width: 80%;
+        margin: 9px 0;
+        padding: 4px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 17px;
+    }
+    #vipvalor{
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 20%;
+        font-size: 22px;
+    }
+    footer{
+        margin: 30px auto;
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    #logofim{
+        width: 10%;
+        line-height: 70px;
+    }
+    #direitos{
+        font-size: 14px;
+        width: 40%;
+        padding: 5px;
+        text-shadow: 2px 2px 1px black;
+    }
+    li{
+        list-style: none;
+    }
+    #linker{
+        width: 25%;
+        position: relative;
+        padding: 5px;
+    
+    }
+    .fimimage{
+        margin: 10px 5px 0;
+        width: 28px;
+        float: right;
+    }
+
+}
+@media(min-width: 583px) and (max-width: 899px){
+    body{
+        height: 100%;
+    }
+    h3{
+        font-size: 16px;
+    }
+    article{
+        margin-bottom: 80px;
+    }
+    section{
+        width: 100%;
+        height: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #cell{
+        position: relative;
+        bottom: 10%;
+        width: 42%;
+    }
+    #imagemcentro{
+        margin-top: 200px;
+        margin-bottom: 100px;
+        width:  75%;
+        height: 140%;
+        background: #fdf5e6bb;
+        border-radius: 10px;
+    }
+    #quadrado{
+        float: right;
+        width: 50%;
+        height: 110%;
+        margin: 2% 8% 0 0;
+        background: #33495ebb;
+        border-radius: 10px;
+        text-align: center;    
+    }
+    button{
+        width: 70%;
+        margin: 9px 0;
+        padding: 4px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 10px;
+    }
+
+    #vipvalor{
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 20%;
+        font-size: 14px;
+    }
+    footer{
+        margin: 220px auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    #logofim{
+        width: 10%;
+        line-height: 70px;
+    }
+    #direitos{
+        font-size: 14px;
+        width: 40%;
+        padding: 5px;
+        text-shadow: 2px 2px 1px black;
+    }
+    li{
+        list-style: none;
+    }
+    #linker{
+        width: 32%;
+        position: relative;
+        padding: 5px;
+    
+    }
+    .fimimage{
+        margin: 10px 5px 0;
+        width: 24px;
+        float: right;
+    }
+
+}
+@media(min-width: 320px) and (max-width: 583px){
+    body{
+        height: 100%;
+    }
+    h1{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    p{
+        font-size: 13px;
+        margin-bottom: 200px;
+    }
+    article{
+        margin-bottom: 80px;
+    }
+    section{
+        width: 100%;
+        height: 50vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #cell{
+        position: relative;
+        bottom:6%;
+        width: 42%;
+    }
+    #imagemcentro{
+        margin-top: 200px;
+        margin-bottom: 100px;
+        width:  90%;
+        height: 220%;
+        background: #fdf5e6bb;
+        border-radius: 10px;
+    }
+    #quadrado{
+        float: right;
+        width: 50%;
+        height: 110%;
+        margin: 2% 8% 0 0;
+        background: #33495ebb;
+        border-radius: 10px;
+        text-align: center;    
+    }
+    button{
+        width: 50%;
+        margin: 9px 0;
+        padding: 2px;
+        border-radius: 8px;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    #vipvalor{
+        margin-bottom: 30px;
+        text-align: left;
+        margin-left: 20%;
+        font-size: 12px;
+    }
+    footer{
+        position: absolute;
+        top: 150%;
+        margin: 320px auto;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+    }
+    #logofim{
+        width: 10%;
+        line-height: 70px;
+       
+    }
+    #direitos{
+        font-size: 10px;
+        width: 50%;
+        margin-left: 10px;
+        padding: 15px;
+        text-shadow: 2px 2px 1px black;
+        
+    }
+    li{
+        list-style: none;
+    }
+    #linker{
+        width: 33%;
+        position: relative;
+        padding: 5px;
+       
+    
+    }
+    .fimimage{
+        margin: 35px 5px 0;
+        width: 18px;
+    
+    }
+
+}
